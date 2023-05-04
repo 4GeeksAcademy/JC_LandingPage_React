@@ -11,6 +11,6 @@
 
 */
 
-.imagen{
-    width: 18rem;
+#card-row{
+    display: flex;
 }

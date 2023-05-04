@@ -8,7 +8,12 @@ import Card from "./card";
 const Home = () => {
 	return (
 		<div className="text-center">
-			<Card/>
+			<div className="row" id="card-row">
+				<Card/>
+				<Card/>
+				<Card/>
+				<Card/>
+			</div>
 		</div>
 	);
 };
