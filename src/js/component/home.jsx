@@ -2,7 +2,7 @@ import React from "react";
 
 //include images into your bundle
 import Navbar from "./navbar";
-
+import Jumbotron from "./jumbotron";
 import Card from "./card";
 import Footer from "./footer";
 
@@ -14,6 +14,7 @@ const Home = () => {
 			
 			<div className="m-auto w-75 overflow-auto">
 				
+				<Jumbotron/>
 
 				<div className="row" id="card-row">
 					<Card/>
@@ -21,8 +22,11 @@ const Home = () => {
 					<Card/>
 					<Card/>
 				</div>
+				
 			</div>
+
 			<Footer/>
+
 		</div>
 	);
 };
